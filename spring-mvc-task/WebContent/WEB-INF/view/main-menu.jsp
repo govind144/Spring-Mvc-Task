@@ -7,9 +7,13 @@
 <title>Home Page</title>
 </head>
 <body>
-<h2>SPRING MVC TASK...</h2>
+<h2>Click below</h2>
 <hr>	
-<a href="student/showForm">Student Form</a>
+<a href="band/showForm">Clcik here for dropdown Type</a>
+<br><br>
+<a href="bands/list">Click here for Band Table</a>
+
+
 	
 </body>
 </html>
