@@ -11,7 +11,7 @@ import javax.persistence.Table;
 public class BandTable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="id")
+	@Column(name="band_id")
 	private String id;
 	@Column(name="band_name")
 	private String bname;

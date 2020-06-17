@@ -3,24 +3,20 @@ package com.gkn.springmvctask;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-
 public class Band {
 	
-
-	
+	private String country;
 	private String band;
-
+	private LinkedHashMap<String, String> countryOption;
    private LinkedHashMap<ArrayList<String>,String> bandOps;
 	public Band() {
 		
-		
+		countryOption = new LinkedHashMap<String, String>();
+		countryOption.put("BR", "BRAZIL");
+		countryOption.put("FR", "FRANCE");
+		countryOption.put("IN", "INDIA");
+		countryOption.put("RUS", "RUSSIA");
+		countryOption.put("USA", "United States Of America");
 		
 		ArrayList<String>member1=new ArrayList<String>();
 		member1.add("Ben Campbell\n");
@@ -60,5 +56,16 @@ public class Band {
 
 	public LinkedHashMap<ArrayList<String>, String> getBandOps() {
 		return bandOps;
+	}
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public LinkedHashMap<String, String> getCountryOption() {
+		return countryOption;
 	}
 }

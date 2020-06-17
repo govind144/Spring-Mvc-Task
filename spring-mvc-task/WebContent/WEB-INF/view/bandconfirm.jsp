@@ -12,6 +12,8 @@
 	<ul>
 	<li> ${band.band }</li>
 	</ul>
+	 <br>
+	 ${band.country }
 	 
 </body>
 </html>

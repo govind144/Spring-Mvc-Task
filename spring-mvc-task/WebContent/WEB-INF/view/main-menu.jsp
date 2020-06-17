@@ -9,9 +9,12 @@
 <body>
 <h2>Click below</h2>
 <hr>	
-<a href="band/showForm">Clcik here for dropdown Type</a>
+<a href="band/showForm">Clcik here for Band and Country </a>
 <br><br>
 <a href="bands/list">Click here for Band Table</a>
+<br><br>
+<a href="banddetails/list">Band-Country</a>
+
 
 
 	

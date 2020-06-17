@@ -17,6 +17,13 @@
 	
 	</form:select>
 	<br><br>
+	Country:
+	<form:select path="country">
+		
+		<form:options items="${band.countryOption }"/>
+	
+	</form:select>
+	<br><br>
 	<input  type="submit" value="Submit"/>
 	</form:form>
 
